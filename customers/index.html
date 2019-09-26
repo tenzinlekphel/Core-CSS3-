@@ -19,6 +19,11 @@
 
 <header class="main-header">
     <div>
+        <button class="toggle-button">
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+            <span class="toggle-button__bar"></span>
+        </button>
         <a href="/" class="main-header_brand">
             Home
         </a>
@@ -36,10 +41,23 @@
     </ul>
 </nav>
 </header>
+<nav class="mobile-nav">
+    <ul class="mobile-nav__items">
+        <li class="mobile-nav__item">
+            <a href="../packages/index.html">Packages</a>
+        </li>
+        <li class="mobile-nav__item">
+            <a href="index.html">Customers</a>
+        </li>
+        <li class="mobile-nav__item mobile-nav__item--cta">
+            <a href="../start-hosting/index.html">Start Hosting</a>
+        </li>
+    </ul>
+</nav>
 <main>
     <div>
         <div class="testimonial" id="customer-1">
-            <div class="testtimonial__image-container">
+            <div class="testimonial__image-container">
                 <img src="../images/customer1.jpeg" alt="customer 1">
             </div>
             <div class="testimonial__info">
@@ -51,7 +69,7 @@
             </div>
         </div>
         <div class="testimonial" id="customer-2">
-            <div class="testtimonial__image-container">
+            <div class="testimonial__image-container">
                 <img src="../images/customer2.jpeg" alt="customer 1">
             </div>
             <div class="testimonial__info">
@@ -63,7 +81,7 @@
             </div>
         </div>
         <div class="testimonial" id="customer-3">
-            <div class="testtimonial__image-container">
+            <div class="testimonial__image-container">
                 <img src="../images/customer3.jpeg" alt="customer 1">
             </div>
             <div class="testimonial__info">
@@ -77,6 +95,10 @@
     </div>
     
 </main>
+
+<script src="../shared.js">
+
+</script>
 
 </body>
 </html>
